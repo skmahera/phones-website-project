@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+    <style>
+      #button{
+        background-color: rgba(16, 241, 8, 0.767);
+        border: none;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 4px;
+        color: black;
+        font-weight: 700;
+         border-color: rgb(95, 211, 17);
+      }
+
+      form tr{
+        background-color: rgb(53, 207, 22);
+       
+        font-weight: 500;
+      }
+
+     input {
+      background-color: rgb(148, 241, 124);
+      border: none;
+     }
+
+
+    </style>
+</head>
+
+<body>
+    <form method="post"action="show.html">
+
+  <h1 style="text-align:center">ADMISSON FORM</h1>
+<table border="1">
+
+    <tr>
+        <td><label for="txtName">Name:</label>
+</td>
+        <td><input type="text" name="txtname"size="20"maxlength="25"requried></td>
+    </tr>
+    <tr>
+        <td><label for="txtName">Father name:</label></td>
+        <td><input type="text" name="txtname"size="20"maxlength="25"requried></td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="txtname">Surname:</label>
+        </td>
+        <td>
+            <input type="text" name="txtname"size="20 "maxlength="25"requried>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="txtE-mail">E-mail:</label>
+        </td>
+        <td>
+            <input type="E-mail"name="txtE-mail"requried>
+        </td>
+    </tr>
+
+    <tr>
+    <td>
+        <label for="txtdt">Date of Admission:</label>
+    </td>
+    <td>
+        <input type="date"name="txtdt"size="20"maxlength="25"requried>
+    </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="txtage">Age </label>
+        </td>
+        <td>
+            <input type="number"name="textage"min="1"max="70">
+        </td>
+    </tr>
+ 
+</table>  
+<br>
+<input type="submit"id="button" >
+</body>
+</html>
